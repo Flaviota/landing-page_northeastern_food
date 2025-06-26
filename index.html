@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sabor Nordestino</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="assets/images/logo.png" alt="logo" />
+              <span>Sabor Nordestino</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Experimente</a></li>
+          <li><a href="#service">Serviços</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li>
+            <button class="btn">
+              <span><i class="ri-login-box-line"></i></span>
+              Login
+            </button>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">
+            <span><i class="ri-login-box-line"></i></span>
+            Login
+          </button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/images/logo2.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <div class="header__tag">
+          A rapidez que você merece
+            <img src="assets/images/delivery-bike.png" alt="header tag" />
+          </div>
+          <h1>Entrega rápida no ritmo da sua fome. <span>Experimente!</span></h1>
+          <p class="section__description">
+               Comida gostosa, chegada ligeira e de graça: é assim que a gente faz.
+          </p>
+          <div class="header__btns">
+            <button class="btn">Peça já!</button>
+            <a href="#">
+              <span><i class="ri-play-fill"></i></span>
+              Assista aqui
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">NOSSOS SERVIÇOS</p>
+      <h2 class="section__header"> Seu Delivery preferido!</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/images/service-1.jpg" alt="service" />
+          <h4>Fácil de pedir</h4>
+          <p>Você só precisa de alguns passos para pedir comida</p>
+        </div>
+        <div class="service__card">
+          <img src="assets/images/service-2.jpg" alt="service" />
+          <h4>Entrega mais rápida</h4>
+          <p>Entrega sempre pontual e ainda mais rápida</p>
+        </div>
+        <div class="service__card">
+          <img src="assets/images/service-3.jpg" alt="service" />
+          <h4>Melhor Qualidade</h4>
+          <p>Para nós, a rapidez não é só a qualidade, mas também a número um.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container menu__container" id="menu">
+      <p class="section__subheader">NOSSAS DELÍCIAS</p>
+      <h2 class="section__header">A escolha que você ama fazer</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/images/baiao.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Baião de Dois com Carne de Sol</h4>
+                <h5><span>R$</span>26.90</h5>
+                <a href="#">
+                    Peça agora
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/images/menu-2.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Escondidinho de Macaxeira com Charque</h4>
+                <h5><span>R$</span>24,90</h5>
+                <a href="#">
+                    Peça agora
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/images/menu-3.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Moqueca de Peixe com Leite de Coco</h4>
+                <h5><span>R$</span>29,90</h5>
+                <a href="#">
+                    Peça agora
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/images/menu-4.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Sarapatel do Sertão</h4>
+                <h5><span>R$</span>23,50</h5>
+                <a href="#">
+                  Peça agora
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/images/menu-5.png" alt="menu" />
+              <div class="menu__card__details">
+                <h4>Galinha Caipira com Pirão</h4>
+                <h5><span>$</span>27,50</h5>
+                <a href="#">
+                    Peça agora
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="assets/images/chef1.png" alt="client" />
+      </div>
+      <div class="client__content">
+        <p class="section__subheader">O QUE ESTÃO FALANDO</p>
+        <h2 class="section__header">O que nossos clientes dizem sobre nós</h2>
+        <p class="section__description">
+          "O sabor da nossa comida é simplesmente surpreendente! A variedade e o 
+          tempero único dos pratos agradam a todos os paladares. O que realmente nos 
+          diferencia é o atendimento: entrega rápida, com a comida sempre quentinha e fresca, 
+          do jeitinho que você merece.
+        </p>
+        <div class="client__details">
+          <img src="assets/images/user.jpg" alt="client" />
+          <div>
+            <h4>Andreia Lima</h4>
+            <h5>Apaixonada por culinária nordestina</h5>
+          </div>
+        </div>
+        <div class="client__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span>5.0</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__container" id="contact">
+      <div class="section__container">
+        <div class="download__image">
+          <img src="assets/images/cell.png" alt="download" />
+        </div>
+        <div class="download__content">
+          <p class="section__subheader">DOWNLOAD DO APLICATIVO</p>
+          <h2 class="section__header">Nos conheça mais!</h2>
+          <p class="section__description">
+               Sabores nordestinos, na hora que bater a fome e no lugar que você estiver.
+          </p>
+          <div class="download__btn">
+            <button class="btn">Baixe agora!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/images/logo.png" alt="logo" />
+              <span>Fudo</span>
+            </a>
+          </div>
+          <p class="section__description">
+               Comida boa, quentinha e entrega grátis: é assim que a gente faz.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Sobre</h4>
+          <ul class="footer__links">
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Cardápio</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Companhia</h4>
+          <ul class="footer__links">
+            <li><a href="#">Experimente</a></li>
+            <li><a href="#">Seja nosso parceiro</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Suporte</h4>
+          <ul class="footer__links">
+            <li><a href="#">Conta</a></li>
+            <li><a href="#">Centro de suporte/a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Nos contate</a></li>
+            <li><a href="#">Acessibilidade</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © Flavia Rodrigues. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
